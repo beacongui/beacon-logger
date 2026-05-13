@@ -5,6 +5,28 @@
 
 This tool was used to generate the **BEACON Dataset**, focusing on user identification via Valorant gameplay dynamics.
 
+### Citations
+If you use this tool or the resulting dataset in your research, please cite the following:
+
+**Dataset Citation:**
+Singh, I., Kaur, G., Atwal, U. P. S., Singh, G., Singh, G., & Singh, M. (2026). BEACON: A Multimodal Dataset for Learning Behavioral Fingerprints from Gameplay Data [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20034625
+
+**Paper Citation (Technical Details):**
+```bibtex
+@misc{singh2026beaconmultimodaldatasetlearning,
+      title={BEACON: A Multimodal Dataset for Learning Behavioral Fingerprints from Gameplay Data}, 
+      author={Ishpuneet Singh and Gursmeep Kaur and Uday Pratap Singh Atwal and Guramrit Singh and Gurjot Singh and Maninder Singh},
+      year={2026},
+      eprint={2605.10867},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={[https://arxiv.org/abs/2605.10867](https://arxiv.org/abs/2605.10867)}, 
+}
+```
+
+> ### ⚠️ Disclaimer
+> **This software was developed strictly for research purposes.** The authors are not responsible for any damage, data loss, or legal issues arising from the use or misuse of this tool. Users are responsible for ensuring they have the necessary permissions to collect data on the target systems.
+
 ## 🛠 Features
 * **Keystroke Dynamics**: Logs raw key press/release events, durations, inter-key latencies, and polling rates.
 * **Mouse Kinematics**: Records X/Y coordinates, velocity, acceleration, and click-timing (scroll, double-clicks).
@@ -25,6 +47,9 @@ Data is saved in a timestamped directory (e.g., `data_YYYY-MM-DD_HH-MM-SS/`) con
 ## 🚀 Setup & Installation
 The logger is designed for **Windows** environments.
 
+### Ready to Run
+The repository includes a pre-compiled version of the tool. You can find **`logger.exe`** directly in the root directory for immediate use.
+
 ### Prerequisites
 1.  **Python 3.x**
 2.  **Npcap**: Required for packet sniffing.
@@ -34,3 +59,7 @@ The logger is designed for **Windows** environments.
 ### Installation
 ```bash
 pip install pynput scapy psutil screeninfo wmi numpy
+```
+
+## License
+This release is distributed under cc-by-nc-4.0.
