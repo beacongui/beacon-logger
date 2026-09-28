@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+type: software
+title: "BEACON-Logger: A Behavioral Authentication and Network Traffic Logger for Game Environments"
+version: v2
+date-released: 2026-05-13
+doi: 10.5281/zenodo.20144661
+license: CC-BY-NC-ND-4.0
+repository-code: "https://github.com/beacongui/beacon-logger"
+authors:
+  - family-names: Singh
+    given-names: Ishpuneet
+  - family-names: Singh
+    given-names: Guramrit
+  - family-names: Kaur
+    given-names: Gursmeep
+  - family-names: Atwal
+    given-names: Uday Pratap Singh
+  - family-names: Singh
+    given-names: Gurjot
+  - family-names: Singh
+    given-names: Maninder
+keywords:
+  - behavioral biometrics
+  - continuous authentication
+  - keystroke dynamics
+  - mouse dynamics
+  - network traffic
+  - data collection
+preferred-citation:
+  type: article
+  title: "BEACON: A Multimodal Dataset for Learning Behavioral Fingerprints from Gameplay Data"
+  year: 2026
+  url: "https://arxiv.org/abs/2605.10867"
+  identifiers:
+    - type: other
+      value: "arXiv:2605.10867"
+  authors:
+    - family-names: Singh
+      given-names: Ishpuneet
+    - family-names: Kaur
+      given-names: Gursmeep
+    - family-names: Atwal
+      given-names: Uday Pratap Singh
+    - family-names: Singh
+      given-names: Guramrit
+    - family-names: Singh
+      given-names: Gurjot
+    - family-names: Singh
+      given-names: Maninder

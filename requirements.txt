@@ -1,0 +1,7 @@
+# From the installation instructions in docs/README_logger.md. Windows only.
+pynput
+scapy
+psutil
+screeninfo
+wmi
+numpy

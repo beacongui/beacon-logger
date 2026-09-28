@@ -1,0 +1,13 @@
+# Session output. Contains personal data, never commit it.
+data_*/
+
+# Local tooling placed next to the script
+ffmpeg/
+npcap_installation_exe/
+screen-capturer-recorder/
+*.exe
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
